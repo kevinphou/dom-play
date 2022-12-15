@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Project Name</title>
+     <title>DOM Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
+  <style>
+    .hamlet{
+      /* background-color:yellow; */
+    }
+
+    #play span{
+      /* background-color:blue; */
+    }
+ 
+ </style>
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
+     <h1 class="page-header">DOM Play</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="*">Link</a>
-            <a href="*">Link</a>
-            <a href="*">Link</a>
+            <a href="https://www.claudiahaas.com/uploads/4/5/1/0/45105785/free_-_what_was_left_-_cast_of_4.pdf">Memory of the Sailboat Play</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>`
      </header>
      
    <main class="wrapper">   
-       <h2 class="subheader">Project Name</h2>
-       
-     <p> Clever content goes here</p>
-
-
-     <footer>
+       <h2 class="subheader"><i>"Memory of the Sailboat"</i></h2>
+       <div id="play">
+     <p><span data-actor="heinz">Heinz: Welcome aboard, Miss Geiringer. I am your captain. We will be sailing at 0900 hours.
+      The winds are moderate from the southwest.</span></p> 
+     <p><span data-actor="eva">Eva: Aye, aye, Captain!</span> </p>
+     <p><span data-actor="heinz">Heinz: And welcome Sanne and Herman. Are you ready to set sail? </span> </p> 
+     <p><span data-actor="sanne">Sanne: I am so excited. I brought a small picnic to share. With cake </span></p>
+     <p><span data-actor="herman">Herman: So did I. We will have plenty of food. </span> </p> 
+     <p><span data-actor="heinz">Heinz: Ha! I’ve seen how much you can eat </span></p>
+     <p><span data-actor="herman">Herman: I’m growing!  </span></p>
+     <p><span data-actor="heinz">Heinz: We all are.  </span></p>
+       </div>
+     
+       <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
           Kevin Phou, All Rights Reserved ~ 
           <a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
